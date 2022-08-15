@@ -10,7 +10,6 @@ base_currency = 'usd'
 current_datetime = datetime.now().date()
 
 
-
 @bot.message_handler(commands=['start'])
 def crypto_price(message):
     btc = api.get_price(ids='bitcoin', vs_currencies=base_currency)['bitcoin'][base_currency]
