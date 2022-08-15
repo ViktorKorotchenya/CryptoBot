@@ -3,7 +3,7 @@ from pycoingecko import CoinGeckoAPI
 from datetime import datetime
 
 api = CoinGeckoAPI()
-token = '5486629501:AAGSlyLjFB_LCS_K9psCiM73eJRKC76qJvM'
+token = '***********************************'
 
 bot = TeleBot(token=token)
 base_currency = 'usd'
